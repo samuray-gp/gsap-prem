@@ -1,19 +1,24 @@
-const age = 27;
-console.log(typeof age);
-const bigInt =26354785899n;
-console.log(typeof bigInt);
-const firstName ="Denis";
-console.log(typeof firstName);
-let age2;
-console.log(age2);
-const obj = {
-    name: "Denis",
-    age: 27,
-    isWorked: true
-}
+// let x = 5;
 
-const num = 10
-const num2 = 3
-console.log(num + num2);
-console.log(num % num2);
+// if(x > 10) {
+//     console.log("Условие верно");
+// } else {
+//     console.log("Условие не верно");
+// }
 
+// let a = 5
+// let b ="10"
+// let result = a + +b
+
+// console.log(a.toString());
+// console.log(result);
+// console.log(typeof a);
+// console.log(typeof b);
+// console.log(a + b);
+
+// alert("Hello")
+
+let age = +prompt("Укажите возраст")
+let a = 10
+let res = age + a
+console.log(res);
